@@ -30,11 +30,12 @@ class Vehiculo:
     def luces(self):
         return f"El {self.modelo} enciende y apaga luces."
 
+    def sistema_espejo(self):
+        return f"El {self.modelo} tiene espejos ajustables."
+
     def sistema_ventanas(self):
         return f"El {self.modelo} permite abrir y cerrar ventanas."
 
-    def sistema_espejo(self):
-        return f"El {self.modelo} tiene espejos ajustables."
 
     # Método para actualizar atributos si se desea
     def asignar_atributos(self, modelo, color, motor, num_puertas, capacidad_pasajeros, tipo_combustible):
@@ -44,3 +45,4 @@ class Vehiculo:
         self.num_puertas = num_puertas
         self.capacidad_pasajeros = capacidad_pasajeros
         self.tipo_combustible = tipo_combustible
+
