@@ -1,5 +1,5 @@
 sfrom modelo_botella import Botella
-#------clase hija 2--------
+
 class Botella_vidrio(Botella):
     def __init__(self, dato_materiales, dato_capacidad, dato_forma, dato_diseño, dato_tapa, dato_grabados):
         super().__init__(dato_materiales, dato_capacidad, dato_forma, dato_diseño, dato_tapa, dato_grabados)
@@ -17,4 +17,5 @@ class Botella_vidrio(Botella):
     
     def compatible_bebidas_calientes(self):
         return "compatible para bebidas muy calientes y frías."
+
 
